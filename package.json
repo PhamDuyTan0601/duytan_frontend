@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "Pet Tracking System",
   "homepage": "/",
-  "type": "module",
   "scripts": {
-    "prebuild": "chmod +x node_modules/.bin/react-scripts || echo 'Permission fix attempted'",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
