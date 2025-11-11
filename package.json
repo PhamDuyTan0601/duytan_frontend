@@ -4,6 +4,7 @@
   "description": "Pet Tracking System",
   "homepage": "/",
   "scripts": {
+    "preinstall": "npm install -g react-scripts@5.0.1",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
