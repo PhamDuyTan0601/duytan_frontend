@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Pet Tracking System",
   "homepage": "/",
+  "type": "module",
   "scripts": {
-    "preinstall": "npm install -g react-scripts@5.0.1",
-    "start": "react-scripts start",
+    "prebuild": "chmod +x node_modules/.bin/react-scripts || echo 'Permission fix attempted'",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,7 +35,7 @@
     ]
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
