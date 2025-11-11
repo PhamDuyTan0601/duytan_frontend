@@ -4,9 +4,8 @@
   "description": "Pet Tracking System",
   "homepage": "/",
   "scripts": {
-    "build": "CI=false react-scripts build",
-    "dev": "react-scripts start",
     "start": "react-scripts start",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
