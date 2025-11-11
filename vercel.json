@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "CI='' npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install"
+}
